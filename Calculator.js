@@ -28,6 +28,9 @@ const ButtonContainer = styled.View`
 const InputContainer = styled.View`
   background-color: ${COLOR.RESULT} ;
   min-height: 50px ;
+  justify-content: 'center' ;
+  align-items: flex-end ;
+  padding: 5px;
 `;
 
 
@@ -41,7 +44,7 @@ const InputContainer = styled.View`
         <View style={{flex:1, width:20, justifyContent: "center"}}>
             {/* 결과 */}
              <InputContainer>
-             <Text style={{color: "white", fontSize:35}}>{input}</Text>
+             <Text style={{color: "white", fontSize:35, textAlign: "right"}}>{input}</Text> 
              </InputContainer>
             <ButtonContainer>
             {/* [AC ` /] */}
