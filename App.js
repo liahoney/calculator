@@ -1,11 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
+import Calculator from './Calculator';
 
 export default function App() {
   
   return (
     <SafeAreaView style={styles.container}>
-      <Calculator />
+     <Calculator/>
     </SafeAreaView>
   );
 }
